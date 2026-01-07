@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<time.h>
 #include<stdbool.h>
-//#include<unistd.h>//for linux
-#include<Windows.h>
+#include<unistd.h>//for linux
+//#include<Windows.h>
 
 /*
 
@@ -30,8 +29,8 @@ int main(void){
         
 
 
-        // sleep(1);//for linux in sec
-        Sleep(1000);// for windows in milli-sec
+        sleep(1);//for linux in sec
+        //Sleep(1000);// for windows in milli-sec
     }
 
     return 0 ;
